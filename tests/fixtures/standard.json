@@ -1,0 +1,113 @@
+[
+  {
+    "Name": "standard_immediate",
+    "keys": [
+      "C",
+      "2",
+      "+",
+      "3",
+      "*",
+      "4",
+      "="
+    ],
+    "result": "20,"
+  },
+  {
+    "Name": "repeated_equals",
+    "keys": [
+      "C",
+      "2",
+      "+",
+      "3",
+      "=",
+      "=",
+      "="
+    ],
+    "result": "11,"
+  },
+  {
+    "Name": "percent_add",
+    "keys": [
+      "C",
+      "2",
+      "0",
+      "0",
+      "+",
+      "1",
+      "0",
+      "%",
+      "="
+    ],
+    "result": "220,"
+  },
+  {
+    "Name": "percent_multiply",
+    "keys": [
+      "C",
+      "2",
+      "0",
+      "0",
+      "*",
+      "1",
+      "0",
+      "%",
+      "="
+    ],
+    "result": "4000,"
+  },
+  {
+    "Name": "clear_entry",
+    "keys": [
+      "C",
+      "8",
+      "+",
+      "9",
+      "CE",
+      "2",
+      "="
+    ],
+    "result": "10,"
+  },
+  {
+    "Name": "sqrt",
+    "keys": [
+      "C",
+      "9",
+      "sqt"
+    ],
+    "result": "3,"
+  },
+  {
+    "Name": "reciprocal",
+    "keys": [
+      "C",
+      "4",
+      "1/x"
+    ],
+    "result": "0,25"
+  },
+  {
+    "Name": "divide_zero",
+    "keys": [
+      "C",
+      "1",
+      "/",
+      "0",
+      "="
+    ],
+    "result": "Cannot divide by zero."
+  },
+  {
+    "Name": "memory",
+    "keys": [
+      "C",
+      "MC",
+      "4",
+      "2",
+      "MS",
+      "C",
+      "MR"
+    ],
+    "result": "42,"
+  }
+]

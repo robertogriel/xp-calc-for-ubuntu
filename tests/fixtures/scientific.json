@@ -1,0 +1,91 @@
+[
+  {
+    "Name": "scientific_precedence",
+    "keys": [
+      "C",
+      "2",
+      "+",
+      "3",
+      "*",
+      "4",
+      "="
+    ],
+    "result": "14,"
+  },
+  {
+    "Name": "parentheses",
+    "keys": [
+      "C",
+      "(",
+      "2",
+      "+",
+      "3",
+      ")",
+      "*",
+      "4",
+      "="
+    ],
+    "result": "20,"
+  },
+  {
+    "Name": "sine_degrees",
+    "keys": [
+      "C",
+      "3",
+      "0",
+      "sin"
+    ],
+    "result": "0,5"
+  },
+  {
+    "Name": "power",
+    "keys": [
+      "C",
+      "2",
+      "x^y",
+      "1",
+      "0",
+      "="
+    ],
+    "result": "1024,"
+  },
+  {
+    "Name": "factorial",
+    "keys": [
+      "C",
+      "5",
+      "n!"
+    ],
+    "result": "120,"
+  },
+  {
+    "Name": "hex_conversion",
+    "keys": [
+      "C",
+      "2",
+      "5",
+      "5",
+      "Hex"
+    ],
+    "result": "FF"
+  },
+  {
+    "Name": "hex_and",
+    "keys": [
+      "C",
+      "A",
+      "And",
+      "3",
+      "="
+    ],
+    "result": "2"
+  },
+  {
+    "Name": "return_decimal",
+    "keys": [
+      "Dec",
+      "C"
+    ],
+    "result": "0,"
+  }
+]
