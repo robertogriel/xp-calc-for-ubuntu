@@ -1,0 +1,21 @@
+__pycache__/
+*.pyc
+dist/
+.venv/
+.pytest_cache/
+*.egg-info/
+
+# Local investigation, captures, machine-specific helpers and notes.
+/evidence/
+/INVESTIGACAO.md
+/.local/
+/packaging/extract_original_icon.py
+/packaging/set-wsl-title-icon.ps1
+/packaging/calc-xp.svg
+/packaging/icons/calc-xp.ico
+
+# Local editor and OS files.
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
